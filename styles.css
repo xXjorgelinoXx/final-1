@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    margin: auto;
+    max-width: 600px;
+    padding: 20px;
+}
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+#title {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+#description {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+p {
+    margin-bottom: 5px;
+}
+select, input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.submit-button {
+    background-color: #5c99fd;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.submit-button:hover {
+    background-color: #68a1fc;
+}
+
+.copy{
+    padding-top: 10px;
+    text-align: center; /*good*/
+    height: 10%; /*good*/
+    width: 100%;/*good*/
+    background-color: #f5f5f5; /*good*/ ;
+    }
+
+    .container{
+        margin-top: 170px;
+    }
+
+    header{
+        position: fixed;/*good*/
+        background-color: #fff; /*good*/
+        padding: 80px; /*good*/
+        top: 0; /*good*/
+        left: 0; /*good*/
+        width: 100%; /*good*/
+        }
+
+    header .im2{
+        top: 55px;
+        left: 110px;
+        position: fixed;
+        }
+    
+        header .alinear {
+        position: fixed;
+        top: 43px; 
+        right: 150px;
+        }
+
+        button, a {
+            text-decoration: none;
+            color:#fff;
+            }
+        
+            button{
+            font-family: "Alata", sans-serif;
+            padding: 12px;
+            color:#fff;
+            background:#5C99FD;
+            width: 100px;
+            margin-top:10px;
+            margin-right: 10px;
+            border: 0;
+            border-radius: 50px;
+            cursor: pointer;
+            }

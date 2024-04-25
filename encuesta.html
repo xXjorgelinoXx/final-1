@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agua potable </title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+    <link rel="icon" href="icon.png" type="image/png">
+</head>
+
+<body>
+    <header>
+        <div class="im2">
+            <a href="index.html"><img src="Logo-proy.png" alt="Logo" style="width: 50%; height: auto;"></a>
+        </div>
+    <div class="alinear">
+        <button><a href="nosotros.html">Tratamiento</a></button>
+        <button><a href="juego.html">Juego</a></button>
+    </div>
+    </header>
+
+    <div class="container">
+        <h1 id="title" class="text-center">Formulario</h1>
+        <p id="description" class="description text-center">
+        El objetivo de esta encuesta es recaudar informacion sobre el uso que le damos a el agua en nuestro dia a dia.
+        </p>
+    <form id="survey-form">
+        <div class="form-group">
+        <label id="name-label" for="name">Nombre</label>
+        <input type="text" name="name" id="name" class="form-control" placeholder="Ingrese su nombre" required />
+        </div>
+
+        <div class="form-group">
+        <p>1. ¿A que te dedicas actualmente?</p>
+        <select id="dropdown" name="role" class="form-control" required>
+            <option disabled selected value>Selecciona tu rol actual</option>
+            <option value="student">Estudiante</option>
+            <option value="job">Trabajo</option>
+            <option value="learner">Profesor</option>
+            <option value="preferNo">Escritor</option>
+            <option value="other">otro</option>
+        </select>
+        </div>
+
+        <div class="form-group">
+            <p>2. Genero</p>
+            <select id="dropdown" name="genero" class="form-control" required>
+                <option disabled selected value>Selecciona tu Genero</option>
+                <option value="M">Masculino</option>
+                <option value="F">Femenino</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <p>3. Su edad se encuentra entre:</p>
+            <select id="dropdown" name="edad" class="form-control" required>
+                <option disabled selected value>Selecciona tu edad</option>
+                <option value="1">Menos de 18 años</option>
+                <option value="2">Entre 18 y 24 años</option>
+                <option value="3">Entre 25 y 40 años</option>
+                <option value="4">Entre 40 y 65 años</option>
+                <option value="5">Mas de 65 años</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <p>4. ¿Considera que hace un uso racional y eficiente del agua?:</p>
+            <select id="dropdown" name="Si" class="form-control" required>
+                <option disabled selected value>Selecciona tu respuestas</option>
+                <option value="si">Si</option>
+                <option value="no">No</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <p>5. Al ducharse: </p>
+            <select id="dropdown" name="ducha" class="form-control" required>
+                <option disabled selected value>Selecciona tu respuestas</option>
+                <option value="1">Mantiene constantemente el grifo abierto</option>
+                <option value="2">Lo cierra mientras se enjabona/rasura/etc.</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <p>6. Al lavarse los dientes:</p>
+            <select id="dropdown" name="dientes" class="form-control" required>
+                <option disabled selected value>Selecciona tu respuestas</option>
+                <option value="1">Mantiene constantemente el grito abierto</option>
+                <option value="2">Lo cierra mientras se cepilla los dientes</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <p>7. Al lavar la vajilla, utensilios de cocina y vegetales:</p>
+            <select id="dropdown" name="cocina" class="form-control" required>
+                <option disabled selected value>Selecciona tu respuestas</option>
+                <option value="1">Mantiene constantemente el grito abierto</option>
+                <option value="2">Lo cierra mientras lava los elementos</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <p>8. Al lavar ropa</p>
+            <select id="dropdown" name="ropa" class="form-control" required>
+                <option disabled selected value>Selecciona tu respuestas</option>
+                <option value="1">Utiliza media carga/ llena el lavarropas de prendas/ ciclos cortos de lavado</option>
+                <option value="2">Lava ropa en pequeñas cantidades/ ciclos largos de lavado</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <p>9. Descarta a través de inodoros o sistema de desagues tampones/ algodones/ medicamentos/ condones/ colillas de
+                cigarrillos/ etc.:</p>
+            <select id="dropdown" name="descarta" class="form-control" required>
+                <option disabled selected value>Selecciona tu respuestas</option>
+                <option value="si">Si</option>
+                <option value="no">No</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <p> 10. Tras haber respondido la encuesta. ¿Considera que hace un uso racional y eficiente del agua?</p>
+            <select id="dropdown" name="consiciencia" class="form-control" required>
+                <option disabled selected value>Selecciona tu respuestas</option>
+                <option value="si">Si</option>
+                <option value="no">No</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <p>11. ¿Qué sugerencias podría brindarnos para mejorar el uso racional y eficiente del agua?</p>
+            <textarea id="comments" class="input-textarea" name="comment"
+            placeholder="Ingrese su comentario aquí..."></textarea>
+        </div>
+
+        <div class="form-group">
+        <button type="submit" id="submit" class="submit-button">
+            Enviar
+        </button>
+        </div>
+    </form>
+    </div>
+
+    <div class="copy">
+        <p>&copy; 2024 Copyright. Todos los derechos reservados.</p>
+        <br>
+        CEO <br>
+        Jorge Cardenas        <br>
+        Carlos Balanta<br>
+        Valerie Goenaga<br>
+        Keitty de las Salas<br>
+        Harrison Ocampo <br>
+        Isaac Herrera <br>
+    </div>
+</body>
+
+</html>
